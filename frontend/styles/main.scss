@@ -622,7 +622,7 @@ footer{
 .section-content-about-deskripsi{
     background-color: #121212;
  
-    
+    flex: wrap;
     border-bottom: 3px solid #97141A;
     .figure{
         margin-bottom: -6px;
@@ -2083,7 +2083,7 @@ footer{
     .section-content-about-deskripsi{
         background-color: #121212;
      
-        
+        flex: wrap;
         border-bottom: 3px solid #97141A;
         .figure{
             margin-bottom: -6px;
@@ -2783,20 +2783,20 @@ footer{
             .section-content-about-deskripsi{
                 background-color: #121212;
              
-                
+                flex: wrap;
                 border-bottom: 3px solid #97141A;
                 .figure{
                     margin-bottom: -6px;
           
-                    width: 135vh;
+                    width: 219vh;
                     img{
-                        width: 100vh;
-                      
+                        width: 150vh;
+                        height: auto;
                        
                     }
                 }
                  .caption{
-                    margin-left: -35px;
+                    margin-left: 0px;
                     .deskripsi{
                        
                         P{
@@ -3419,18 +3419,18 @@ footer{
                 border-bottom: 3px solid #97141A;
                 .figure{
                     margin-bottom: -6px;
-                    width:113vh;
+                    width:219vh;
                 
                     img{
-                        width: 100vh;
-                        
+                        width: 120vh;
+                        height: auto;
                        
                     }
                 }
                  .caption{
                   
                     .deskripsi{
-                        margin-left: -70px;
+                        margin-left: -10px;
                         P{
                         
                             font-size:8px;
@@ -3668,18 +3668,18 @@ footer{
                     border-bottom: 3px solid #97141A;
                     .figure{
                         margin-bottom: -6px;
-                        width: 100vh;
+                        width: 219vh;
                     
                         img{
                             width: 100vh;
-                            height: 70vh;
+                            height: auto;
                            
                         }
                     }
                      .caption{
                       
                         .deskripsi{
-                           margin-left:-75px ;
+                           margin-left:-10px ;
                             P{
                             
                                 font-size:5px;
@@ -3873,12 +3873,12 @@ footer{
                                 display: flex;
                                 .slick-center{
                                    img{
-                                    transform: scale(1.2);
+                                    transform: scale(1.0);
                                    }
                                    
                                   }
                                 .items{
-                                    width: 150px;
+                                    width: 120px;
                                     height: 250px;
                                     margin: 3vh;
                             
@@ -3905,11 +3905,11 @@ footer{
                         border-bottom: 3px solid #97141A;
                         .figure{
                             margin-bottom: -6px;
-                            width: 63vh;
+                            width: 150vh;
                         
                             img{
-                                width: 100vh;
-                                height: 70vh;
+                                width: 120vh;
+                                height: auto;
                                
                             }
                         }
@@ -3965,7 +3965,7 @@ footer{
                      }
 
 
-                     @media (orientation :portrait) and (max-width: 624px){
+                     @media (orientation :portrait) and(min-width:470px)and (max-width:754px){
                   
                         .section-content-about-deskripsi{
                             display: none;
@@ -4200,18 +4200,19 @@ footer{
                             border-bottom: 3px solid #97141A;
                             .figure{
                                 margin-bottom: -6px;
-                                width: 63vh;
+                                width: 135vh;
                             
                                 img{
-                                    width: 100vh;
-                                    height: 50vh;
+                                    width: 120vh;
+                                    height: auto;
                                    
                                 }
                             }
+                      
                              .caption{
                               
                                 .deskripsi{
-                                   margin-left:-125px ;
+                                   margin-left:-10px ;
                                     P{
                                     
                                         font-size:13px;
@@ -4413,7 +4414,7 @@ footer{
                             }
                          }
 
-                         @media (orientation :portrait) and (max-width: 800px){
+                         @media (orientation :portrait) and(min-width:754px)and (max-width: 800px){
                   
                             .section-content-about-deskripsi{
                                 display: none;
