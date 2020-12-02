@@ -2065,11 +2065,15 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    margin-left: -20px;
+    width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 90vh;
-    height: 100vh;
+    height: auto;
+  }
+  .section-content-about-deskripsi .caption {
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .caption .deskripsi P {
     font-size: 12px;
@@ -2640,6 +2644,9 @@ footer .footerCopyright .sosial-media img {
     width: 90vh;
     height: auto;
   }
+  .section-content-about-deskripsi .caption {
+    margin-left: -0px;
+  }
   .section-content-about-deskripsi .caption .deskripsi P {
     font-size: 13px;
     width: 80%;
@@ -2718,14 +2725,15 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    width: 219vh;
+    margin-left: -0px;
+    width: 100%;
   }
   .section-content-about-deskripsi .figure img {
     width: 150vh;
     height: auto;
   }
   .section-content-about-deskripsi .caption {
-    margin-left: 0px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .caption .deskripsi P {
     font-size: 11px;
@@ -3474,11 +3482,15 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    width: 219vh;
+    width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 120vh;
     height: auto;
+  }
+  .section-content-about-deskripsi .caption {
+    margin-left: 10px;
   }
   .section-content-about-deskripsi .caption .deskripsi {
     margin-left: -10px;
@@ -3867,11 +3879,15 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    width: 219vh;
+    width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 100vh;
     height: auto;
+  }
+  .section-content-about-deskripsi .caption {
+    margin-left: 8px;
   }
   .section-content-about-deskripsi .caption .deskripsi {
     margin-left: -10px;
@@ -4001,13 +4017,14 @@ footer .footerCopyright .sosial-media img {
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
     width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
-    height: 50vh;
+    height: auto;
   }
   .section-content-about-deskripsi-mobile-display .caption {
-    margin-left: 0px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi {
     width: 102%;
@@ -4061,7 +4078,7 @@ footer .footerCopyright .sosial-media img {
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
     width: 100%;
-    margin-left: 0px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 120vh;
@@ -4126,6 +4143,7 @@ footer .footerCopyright .sosial-media img {
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
     width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
@@ -4541,6 +4559,7 @@ footer .footerCopyright .sosial-media img {
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
     width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
