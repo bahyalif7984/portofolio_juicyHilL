@@ -2633,11 +2633,12 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    margin-left: -20px;
+    width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 90vh;
-    height: 100vh;
+    height: auto;
   }
   .section-content-about-deskripsi .caption .deskripsi P {
     font-size: 13px;
