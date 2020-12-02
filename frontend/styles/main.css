@@ -27,7 +27,7 @@ html {
 }
 
 .navbar a {
-  padding: 30px 80px 0 80px;
+  padding: 30px 80px 0 10px;
   margin: 0 50px 0 50px;
 }
 
@@ -1764,7 +1764,7 @@ footer .footerCopyright .sosial-media img {
     font-size: 25px;
   }
   .navbar a {
-    padding: 10px 60px 0 60px;
+    padding: 10px 10px 0 40px;
     margin: 0 50px 0 50px;
   }
   .navbar h6 {
@@ -3257,6 +3257,169 @@ footer .footerCopyright .sosial-media img {
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
+  .navbar .textjuicyhhill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .navbar a {
+    padding: 10px 10px 0 40px;
+    margin: 0 10px 0 20px;
+  }
+  .navbar h6 {
+    display: none;
+    color: #ffffff;
+  }
+  .navbar .navbar-toggler {
+    margin: 20px 20px 20px 20px;
+  }
+  .navbar form button {
+    margin: 15px 10px 0 20px;
+  }
+  .section-content-contact {
+    background-color: #000000;
+    height: 650px;
+    margin-left: -30px;
+  }
+  .section-content-contact .figure {
+    display: none;
+  }
+  .section-content-contact .form-content {
+    margin-top: -230px;
+    margin-left: -50px;
+  }
+  .section-content-contact .form-content h1 {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 250px 0 0px 100px;
+  }
+  .section-content-contact .form-content .form {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 75%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  .section-content-contact .form-content .form input {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-content-contact .form-content .form textarea {
+    background: transparent;
+    width: 100%;
+    color: #ffffff;
+    height: 100%;
+    border: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    pointer-events: none;
+    border-bottom: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form label .content-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .section-content-contact .form-content .form label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #5faBd3;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .section-content-contact .form-content .form input:focus + .label-name .content-name,
+  .section-content-contact .form-content .form input:valid + .label-name .content-name {
+    -webkit-transform: translateY(-70%);
+            transform: translateY(-70%);
+    font-size: 14px;
+    color: #5faBd3;
+  }
+  .section-content-contact .form-content .form input:focus + .label-name::after,
+  .section-content-contact .form-content .form input:valid + .label-name::after {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .section-content-contact .form-content .formsatu {
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 75%;
+    position: relative;
+    height: 50px;
+  }
+  .section-content-contact .form-content .formsatu label {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .formsatu select {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+  }
+  .section-content-contact .form-content .formsatu select:hover {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::-moz-selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::-moz-selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .form-group {
+    margin-top: -30px;
+    margin-left: 100px;
+    width: 75%;
+    position: relative;
+    height: 50px;
+  }
+  .section-content-contact .form-content .form-group textarea {
+    background: transparent;
+    border-radius: 0px;
+    color: #ffffff;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form-group button {
+    background: #97141A;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #ffffff;
+  }
+  .section-content-contact .form-content .form-group label {
+    color: #ffffff;
+  }
   .section-about-us {
     margin-top: 50px;
   }
@@ -3361,6 +3524,172 @@ footer .footerCopyright .sosial-media img {
 }
 
 @media (min-width: 272px) and (max-width: 384px) {
+  .navbar .textjuicyhhill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .navbar a {
+    padding: 10px 10px 0 40px;
+    margin: 0 10px 0 20px;
+  }
+  .navbar h6 {
+    display: none;
+    color: #ffffff;
+  }
+  .navbar .navbar-toggler {
+    margin: 20px 20px 20px 20px;
+  }
+  .navbar form button {
+    margin: 15px 10px 0 20px;
+  }
+  .section-contact-info {
+    margin-left: -45px;
+  }
+  .section-content-contact {
+    background-color: #000000;
+    height: 650px;
+    margin-left: -35px;
+  }
+  .section-content-contact .figure {
+    display: none;
+  }
+  .section-content-contact .form-content {
+    margin-top: -230px;
+    margin-left: -50px;
+  }
+  .section-content-contact .form-content h1 {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 250px 0 0px 100px;
+  }
+  .section-content-contact .form-content .form {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 65%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  .section-content-contact .form-content .form input {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-content-contact .form-content .form textarea {
+    background: transparent;
+    width: 100%;
+    color: #ffffff;
+    height: 100%;
+    border: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    pointer-events: none;
+    border-bottom: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form label .content-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .section-content-contact .form-content .form label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #5faBd3;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .section-content-contact .form-content .form input:focus + .label-name .content-name,
+  .section-content-contact .form-content .form input:valid + .label-name .content-name {
+    -webkit-transform: translateY(-70%);
+            transform: translateY(-70%);
+    font-size: 14px;
+    color: #5faBd3;
+  }
+  .section-content-contact .form-content .form input:focus + .label-name::after,
+  .section-content-contact .form-content .form input:valid + .label-name::after {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .section-content-contact .form-content .formsatu {
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 65%;
+    position: relative;
+    height: 50px;
+  }
+  .section-content-contact .form-content .formsatu label {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .formsatu select {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+  }
+  .section-content-contact .form-content .formsatu select:hover {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::-moz-selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .formsatu select ::-moz-selection {
+    background-color: #000000;
+  }
+  .section-content-contact .form-content .form-group {
+    margin-top: -30px;
+    margin-left: 100px;
+    width: 65%;
+    position: relative;
+    height: 50px;
+  }
+  .section-content-contact .form-content .form-group textarea {
+    background: transparent;
+    border-radius: 0px;
+    color: #ffffff;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ffffff;
+  }
+  .section-content-contact .form-content .form-group button {
+    background: #97141A;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #ffffff;
+  }
+  .section-content-contact .form-content .form-group label {
+    color: #ffffff;
+  }
   .section-about-us {
     margin-top: 50px;
   }
@@ -3670,20 +3999,21 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
-    width: 66vh;
+    width: 100%;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
     height: 50vh;
   }
   .section-content-about-deskripsi-mobile-display .caption {
-    margin-left: -10px;
+    margin-left: 0px;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi {
     width: 102%;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi P {
-    font-size: 12px;
+    text-align: justify;
+    font-size: 15px;
     width: 190%;
     color: #ffffff;
   }
@@ -3729,17 +4059,19 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    width: 150vh;
+    width: 100%;
+    margin-left: 0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 120vh;
     height: auto;
   }
   .section-content-about-deskripsi .caption .deskripsi {
-    margin-left: -125px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .caption .deskripsi P {
-    font-size: 10px;
+    text-align: justify;
+    font-size: 15px;
     width: 140%;
     color: #ffffff;
   }
@@ -3792,19 +4124,20 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
-    width: 74vh;
+    width: 100%;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
     height: 50vh;
   }
   .section-content-about-deskripsi-mobile-display .caption {
-    margin-left: -10px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi {
-    width: 102%;
+    width: 100%;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi P {
+    text-align: justify;
     font-size: 16px;
     width: 190%;
     color: #ffffff;
@@ -3996,17 +4329,19 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi .figure {
     margin-bottom: -6px;
-    width: 135vh;
+    width: 100%;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .figure img {
     width: 120vh;
     height: auto;
   }
   .section-content-about-deskripsi .caption .deskripsi {
-    margin-left: -10px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi .caption .deskripsi P {
-    font-size: 13px;
+    text-align: justify;
+    font-size: 16px;
     width: 140%;
     color: #ffffff;
   }
@@ -4204,17 +4539,17 @@ footer .footerCopyright .sosial-media img {
   }
   .section-content-about-deskripsi-mobile-display .figure {
     margin-bottom: -6px;
-    width: 74vh;
+    width: 100%;
   }
   .section-content-about-deskripsi-mobile-display .figure img {
     width: 70vh;
     height: 43vh;
   }
   .section-content-about-deskripsi-mobile-display .caption {
-    margin-left: -10px;
+    margin-left: -0px;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi {
-    width: 102%;
+    width: 100%;
   }
   .section-content-about-deskripsi-mobile-display .caption .deskripsi P {
     font-size: 16px;

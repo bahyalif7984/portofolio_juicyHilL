@@ -25,7 +25,7 @@ html{
         font-size: 25px;
     }
     a{
-        padding: 30px 80px 0 80px;
+        padding: 30px 80px 0 10px;
         margin: 0 50px 0 50px;
      
     }
@@ -1766,7 +1766,7 @@ footer{
         font-size: 25px;
     }
       a{
-        padding: 10px 60px 0 60px;
+        padding: 10px 10px 0 40px;
         margin: 0 50px 0 50px;
      
     }
@@ -3369,7 +3369,183 @@ footer{
 
               
          @media (min-width: 400px) and (max-width: 600px) {
-         
+            .navbar{
+                .textjuicyhhill{
+                    display: flex;
+                    margin-left:10px ;
+                    font-size: 25px;
+                }
+                  a{
+                    padding: 10px 10px 0 40px;
+                    margin: 0 10px 0 20px;
+                 
+                }
+                h6{
+                    display: none;
+                    color: #ffffff;
+                }
+                .navbar-toggler{
+                    margin: 20px 20px 20px 20px;
+                }
+                form{
+                    button{
+                        margin: 15px 10px 0 20px;
+                    }
+                }
+              
+              }
+              .section-content-contact{
+                background-color: #000000;
+                height:650px;
+                margin-left: -30px;
+                .figure{
+                  display: none;
+                    img{
+                       
+                        
+                    }
+                }
+                .form-content{
+                    margin-top: -230px;
+                    margin-left: -50px;
+                    h1{
+                        font-size: 15px;
+                        color: #ffffff;
+                         margin:250px 0 0px 100px ;
+                    }
+                    .form{
+                        margin-top: 10px;
+                        margin-left: 100px;
+                        width: 75%;
+                        position: relative;
+                        height: 50px;
+                        overflow: hidden;
+                        input{
+                              background: transparent;
+                            width: 100%;
+                            height: 100%;
+                            // color: #ffffff;
+                            padding-top: 10px;
+                            border: none;
+                            outline: none;
+                        }
+                        textarea{
+                            background: transparent;
+                            width: 100%;
+                            color: #ffffff;
+                            height: 100%;
+                            border: 1px solid #ffffff;
+                         
+                        }
+                        label{
+                            position: absolute;
+                            bottom: 0px;
+                            left: 0%;
+                            color: #ffffff;
+                            width: 100%;
+                            height: 100%;
+                            font-size: 14px;
+                            pointer-events: none;
+                            border-bottom: 1px solid #ffffff;
+                          
+                       .content-name{
+                           position: absolute;
+                           bottom: 5px;
+                           left: 0px;
+                           transition:all 0.3s ease ;
+                       }
+                     }
+                      
+                        label::after{
+                            content:"";
+                            position: absolute;
+                            left: 0px;
+                            bottom: -1px;
+                            height: 100%;
+                            width: 100%;
+                            border-bottom:3px solid #5faBd3 ;
+                            transform: translateX(-100%);
+                            transition: all 0.3s ease ;
+                        }
+                      input:focus + .label-name .content-name,
+                      input:valid+ .label-name .content-name{
+                            transform: translateY(-70%);
+                            font-size: 14px;
+                            color: #5faBd3;
+                      }
+                      input:focus +.label-name::after,
+                       input:valid + .label-name::after{
+                        transform:translateX(0%);
+                      }
+                    }
+                    .formsatu{
+                        margin-top: 15px;
+                        margin-left: 100px;
+                        width: 75%;
+                        position: relative;
+                        height: 50px;
+                       
+                        label{
+                      
+                            color: #ffffff;
+                            width: 100%;
+                            height: 100%;
+                      
+                      
+                            border-bottom: 1px solid #ffffff;
+                          
+                    
+                     }
+                     select{
+                          background-color:transparentize($color: #000000, $amount: 0);
+                         color: #ffffff;
+                         border: none;
+                         font-size: 16px;
+                         position: absolute;
+                         bottom: 5px;
+            
+                         left: -5px;
+                         &:hover{
+                            background-color: #000000;
+                         }
+                      
+                       ::selection{
+                        background-color: #000000;
+                       }
+                       ::-moz-selection{
+                        background-color: #000000;
+                       }
+                     }
+                    }
+                    .form-group{
+                        margin-top: -30px;
+                        margin-left: 100px;
+                        width: 75%;
+                        position: relative;
+                        height: 50px;
+                        textarea{
+                            background: transparent;
+                            border-radius: 0px;
+                            color: #ffffff;
+                            height:100px;     
+                             overflow: scroll;
+                            border: 1px solid #ffffff;
+                        }
+                        button{
+                            background: #97141A;
+                            border: none;
+                            font-size: 15px;
+                      
+                            margin-top: 15px;
+                            color: #ffffff;
+                        }
+                        label{
+                            color: #ffffff;
+                        }
+                    }
+                 
+                }
+            }
             .section-about-us{
                 margin-top: 50px;
                 .about-us{
@@ -3480,6 +3656,187 @@ footer{
             
              }
              @media (min-width:272px) and (max-width: 384px) {
+                .navbar{
+                    .textjuicyhhill{
+                        display: flex;
+                        margin-left:10px ;
+                        font-size: 25px;
+                    }
+                      a{
+                        padding: 10px 10px 0 40px;
+                        margin: 0 10px 0 20px;
+                     
+                    }
+                    h6{
+                        display: none;
+                        color: #ffffff;
+                    }
+                    .navbar-toggler{
+                        margin: 20px 20px 20px 20px;
+                    }
+                    form{
+                        button{
+                            margin: 15px 10px 0 20px;
+                        }
+                    }
+                  
+                  }
+                  .section-contact-info{
+                      margin-left: -45px;
+                  }
+                  .section-content-contact{
+                    background-color: #000000;
+                    height:650px;
+                    margin-left: -35px;
+                    .figure{
+                      display: none;
+                        img{
+                           
+                            
+                        }
+                    }
+                    .form-content{
+                        margin-top: -230px;
+                        margin-left: -50px;
+                        h1{
+                            font-size: 15px;
+                            color: #ffffff;
+                             margin:250px 0 0px 100px ;
+                        }
+                        .form{
+                            margin-top: 10px;
+                            margin-left: 100px;
+                            width: 65%;
+                            position: relative;
+                            height: 50px;
+                            overflow: hidden;
+                            input{
+                                  background: transparent;
+                                width: 100%;
+                                height: 100%;
+                                // color: #ffffff;
+                                padding-top: 10px;
+                                border: none;
+                                outline: none;
+                            }
+                            textarea{
+                                background: transparent;
+                                width: 100%;
+                                color: #ffffff;
+                                height: 100%;
+                                border: 1px solid #ffffff;
+                             
+                            }
+                            label{
+                                position: absolute;
+                                bottom: 0px;
+                                left: 0%;
+                                color: #ffffff;
+                                width: 100%;
+                                height: 100%;
+                                font-size: 14px;
+                                pointer-events: none;
+                                border-bottom: 1px solid #ffffff;
+                              
+                           .content-name{
+                               position: absolute;
+                               bottom: 5px;
+                               left: 0px;
+                               transition:all 0.3s ease ;
+                           }
+                         }
+                          
+                            label::after{
+                                content:"";
+                                position: absolute;
+                                left: 0px;
+                                bottom: -1px;
+                                height: 100%;
+                                width: 100%;
+                                border-bottom:3px solid #5faBd3 ;
+                                transform: translateX(-100%);
+                                transition: all 0.3s ease ;
+                            }
+                          input:focus + .label-name .content-name,
+                          input:valid+ .label-name .content-name{
+                                transform: translateY(-70%);
+                                font-size: 14px;
+                                color: #5faBd3;
+                          }
+                          input:focus +.label-name::after,
+                           input:valid + .label-name::after{
+                            transform:translateX(0%);
+                          }
+                        }
+                        .formsatu{
+                            margin-top: 15px;
+                            margin-left: 100px;
+                            width: 65%;
+                            position: relative;
+                            height: 50px;
+                           
+                            label{
+                          
+                                color: #ffffff;
+                                width: 100%;
+                                height: 100%;
+                          
+                          
+                                border-bottom: 1px solid #ffffff;
+                              
+                        
+                         }
+                         select{
+                              background-color:transparentize($color: #000000, $amount: 0);
+                             color: #ffffff;
+                             border: none;
+                             font-size: 16px;
+                             position: absolute;
+                             bottom: 5px;
+                
+                             left: -5px;
+                             &:hover{
+                                background-color: #000000;
+                             }
+                          
+                           ::selection{
+                            background-color: #000000;
+                           }
+                           ::-moz-selection{
+                            background-color: #000000;
+                           }
+                         }
+                        }
+                        .form-group{
+                            margin-top: -30px;
+                            margin-left: 100px;
+                            width: 65%;
+                            position: relative;
+                            height: 50px;
+                            textarea{
+                                background: transparent;
+                                border-radius: 0px;
+                                color: #ffffff;
+                                height:100px;     
+                                 overflow: scroll;
+                                border: 1px solid #ffffff;
+                            }
+                            button{
+                                background: #97141A;
+                                border: none;
+                                font-size: 15px;
+                          
+                                margin-top: 15px;
+                                color: #ffffff;
+                            }
+                            label{
+                                color: #ffffff;
+                            }
+                        }
+                     
+                    }
+                }
+                  
                 .section-about-us{
                     margin-top: 50px;
                     .about-us{
@@ -3835,7 +4192,7 @@ footer{
                         border-bottom: 3px solid #97141A;
                         .figure{
                             margin-bottom: -6px;
-                            width: 66vh;
+                            width: 100%;
                             
                             img{
                                 width: 70vh;
@@ -3844,12 +4201,12 @@ footer{
                             }
                         }
                          .caption{
-                            margin-left: -10px;
+                            margin-left: 0px;
                             .deskripsi{
                                 width: 102%;
                                 P{
-                                
-                                    font-size:12px;
+                                    text-align: justify;
+                                    font-size:15px;
                                     width: 190%;
                                     color: #ffffff;
                                   
@@ -3905,8 +4262,8 @@ footer{
                         border-bottom: 3px solid #97141A;
                         .figure{
                             margin-bottom: -6px;
-                            width: 150vh;
-                        
+                            width: 100%;
+                            margin-left: 0px;
                             img{
                                 width: 120vh;
                                 height: auto;
@@ -3916,10 +4273,11 @@ footer{
                          .caption{
                           
                             .deskripsi{
-                               margin-left:-125px ;
+                               margin-left:-0px ;
                                 P{
                                 
-                                    font-size:10px;
+                                    text-align: justify;
+                                    font-size:15px;
                                     width: 140%;
                                     color: #ffffff;
                                 }
@@ -3978,7 +4336,7 @@ footer{
                               border-bottom: 3px solid #97141A;
                               .figure{
                                   margin-bottom: -6px;
-                                  width: 74vh;
+                                  width: 100%;
                                   
                                   img{
                                       width: 70vh;
@@ -3987,12 +4345,13 @@ footer{
                                   }
                               }
                                .caption{
-                                  margin-left: -10px;
+                                  margin-left: -0px;
                                   .deskripsi{
-                                      width: 102%;
+                                      width: 100%;
                                       P{
                                       
-                                          font-size:16px;
+                                        text-align: justify;
+                                        font-size:16px;
                                           width: 190%;
                                           color: #ffffff;
                                         
@@ -4200,7 +4559,8 @@ footer{
                             border-bottom: 3px solid #97141A;
                             .figure{
                                 margin-bottom: -6px;
-                                width: 135vh;
+                                width: 100%;
+                                margin-left: -0px;
                             
                                 img{
                                     width: 120vh;
@@ -4212,10 +4572,11 @@ footer{
                              .caption{
                               
                                 .deskripsi{
-                                   margin-left:-10px ;
+                                   margin-left:-0px ;
                                     P{
                                     
-                                        font-size:13px;
+                                      text-align: justify;
+                                    font-size:16px;
                                         width: 140%;
                                         color: #ffffff;
                                     }
@@ -4427,7 +4788,7 @@ footer{
                                   border-bottom: 3px solid #97141A;
                                   .figure{
                                       margin-bottom: -6px;
-                                      width: 74vh;
+                                      width: 100%;
                                       
                                       img{
                                           width: 70vh;
@@ -4436,9 +4797,9 @@ footer{
                                       }
                                   }
                                    .caption{
-                                      margin-left: -10px;
+                                      margin-left: -0px;
                                       .deskripsi{
-                                          width: 102%;
+                                          width: 100%;
                                           P{
                                           
                                               font-size:16px;
