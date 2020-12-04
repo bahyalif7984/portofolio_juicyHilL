@@ -1706,7 +1706,7 @@ footer .footerCopyright .sosial-media img {
   }
 }
 
-@media only screen and (max-width: 907px) {
+@media only screen and (max-width: 960px) {
   .carousel ol li {
     width: 15px;
     height: 15px;
