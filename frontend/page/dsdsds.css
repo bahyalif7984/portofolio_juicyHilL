@@ -1,0 +1,2801 @@
+@media (min-width: 220px) and (max-width: 580px) {
+  .header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 40px;
+    margin-left: -1vh;
+  }
+  .header nav figure img {
+    width: 80px;
+    margin-top: 20px;
+  }
+  .header nav .slide {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+    right: 0;
+  }
+  .header nav ul {
+    padding-top: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-left: 80vh;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    top: 0;
+    right: -50%;
+    width: 23%;
+    z-index: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: rgba(23, 74, 212, 0.7);
+    padding: 20px 0;
+    opacity: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header nav ul li {
+    padding-top: 9px;
+  }
+  .header nav ul li a {
+    color: #ffffff;
+  }
+  .header .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .testimoni .judul {
+    margin-bottom: 50px;
+  }
+  .testimoni .judul h1 {
+    color: #00337F;
+    text-align: center;
+    font-size: 7vh;
+  }
+  .testimoni card {
+    border: 1px solid #EAEAEA;
+    width: auto;
+    margin: 10px;
+    height: 100px;
+  }
+  .testimoni card:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#00337F), to(#0061F2));
+    background-image: linear-gradient(90deg, #00337F, #0061F2);
+  }
+  .testimoni card figure {
+    margin: -1px;
+  }
+  .testimoni card figure img {
+    width: 100px;
+  }
+  .testimoni card .deskription {
+    margin-top: 5px;
+  }
+  .testimoni card .deskription h1 {
+    font-size: 5vh;
+  }
+  .testimoni card .deskription p {
+    font-size: 2.5vh;
+    height: 57px;
+    overflow: hidden;
+    margin-top: -5px;
+  }
+  .testimoni card .deskription p:hover {
+    overflow-y: scroll;
+    height: 57px;
+  }
+  .testimoni card .deskription .image-star-review {
+    font-size: 10px;
+    margin-left: -1px;
+  }
+  .testimoni card .deskription .image-star-review figure img {
+    width: 10px;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    font-size: 7vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 3vh;
+    margin-top: -5vh;
+    margin-left: 20px;
+  }
+  .appPro {
+    margin-top: 50px;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 9vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -6px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.7fr;
+        grid-template-columns: 0.7fr 0.7fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 190%;
+    font-size: 3vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 3vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 20vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 6vh;
+  }
+  footer .footerCopyright {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+  }
+  footer .footerCopyright .txt {
+    padding-right: 40px;
+    font-size: 3.2vh;
+    width: 60%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: auto 0;
+    color: #ffffff;
+  }
+  footer .footerCopyright .sosial-media img {
+    margin-top: -5px;
+    margin-right: 3px;
+    width: 15px;
+  }
+}
+
+@media screen and (min-width: 1511px) {
+  .header {
+    background-size: 85vh;
+  }
+  .header nav figure img {
+    width: 220px;
+    margin-top: 10px;
+  }
+  .header nav ul li a {
+    color: #00337F;
+    font-size: 30px;
+  }
+  .header nav ul li a:hover {
+    text-decoration: none;
+  }
+  .header .deskripsi {
+    display: -ms-grid;
+    display: grid;
+    height: 60%;
+    margin-left: 26vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 40px;
+  }
+  .header .deskripsi p {
+    width: 50vh;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+  .header .deskripsi .button .btn-get {
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    height: 100px;
+    font-size: 18px;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    width: 240px;
+    height: 100px;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    left: -15px;
+    font-size: 18px;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+    top: 50px;
+    left: 10px;
+    font-size: 18px;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    top: 10%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 27px;
+    font-size: 18px;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 18px;
+    left: 3px;
+    top: 40px;
+    color: #ffffff;
+  }
+  .appPro {
+    margin-top: 50px;
+  }
+  .appPro .appro2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 1fr;
+        grid-template-columns: 0.7fr 1fr;
+        grid-template-areas: 'figure deskripsi';
+  }
+  .appPro .appro2 figure img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: figure;
+  }
+  .appPro .appro2 .deskripsi {
+    height: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 40px;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    height: 100px;
+    font-size: 18px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    width: 240px;
+    height: 100px;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    top: 20px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    margin-top: 90px;
+    width: 100%;
+    top: -70px;
+    position: absolute;
+    font-size: 18px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+    top: -40px;
+    left: 15px;
+    font-size: 18px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    top: 10%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 27px;
+    font-size: 18px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 18px;
+    left: 3px;
+    top: 25px;
+    color: #ffffff;
+  }
+  .benefit {
+    height: auto;
+    padding: 100px;
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 40px;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 20px;
+  }
+  .testimoni {
+    margin-top: 150px;
+  }
+  .diference {
+    height: 600px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -30px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    font-size: 40px;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0.7fr;
+        grid-template-columns: 1fr 0.7fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    font-size: 30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 20px;
+    margin: 10px 0px 0px 30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 1vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 40px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 520px) {
+  .header {
+    height: 80vh;
+    background-image: url("../image/Group 10821.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+  }
+  .header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 30px;
+    margin-left: -1vh;
+  }
+  .header nav figure img {
+    width: 12vh;
+    margin-top: 20px;
+  }
+  .header nav .slide {
+    right: 0%;
+    opacity: 1;
+    right: 0;
+  }
+  .header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-left: 80vh;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    right: -50%;
+    width: 53%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: rgba(23, 74, 212, 0.7);
+    padding: 20px 0;
+    opacity: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header nav ul li a {
+    color: #ffffff;
+    font-size: 2vh;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 30%;
+    margin-left: 2vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .header .deskripsi p {
+    width: 50%;
+    font-size: 1.6vh;
+    margin: -5px 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -1vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 5vh;
+    font-size: 1vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0666f7), to(#0167FF));
+    background: linear-gradient(#0666f7 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 3.5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1.5vh;
+    left: -0.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.8vh;
+    top: 3vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 3.3vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.7vh;
+    left: 1.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.3vh;
+    top: 3.1vh;
+    color: #dddddd;
+  }
+  .header .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .appPro {
+    margin-top: -35vh;
+  }
+  .appPro .appro2 figure img {
+    width: 40vh;
+  }
+  .appPro .appro2 .deskripsi {
+    height: 155px;
+    margin-top: -0.6vh;
+    grid-area: deskripsi;
+    overflow: hidden;
+  }
+  .appPro .appro2 .deskripsi:hover {
+    overflow-y: scroll;
+    height: 155px;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+    margin-bottom: 3vh !important;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 1.5vh;
+    margin-top: -1vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    width: 100vh;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -2vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 20px;
+    font-size: 1vh;
+    margin-right: 5px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0666f7), to(#0167FF));
+    background: linear-gradient(#0666f7 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 14px;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.4vh;
+    left: -0.3vh;
+    font-size: 5px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 5px;
+    top: 2.5vh;
+    left: 1vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 14px;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.5vh;
+    left: 1.2vh;
+    font-size: 5px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 5px;
+    top: 2.5vh;
+    left: 0.1vh;
+    color: #dddddd;
+  }
+  .benefit {
+    background-color: #EFEFEF;
+    height: 30vh;
+    width: 100%;
+    margin-top: 12vh;
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    margin-top: 2vh;
+    height: 100%;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 1.5vh;
+    margin-top: -2vh;
+  }
+  .benefit .benefit2 .pict-product {
+    margin-top: 7vh;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -10vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+    width: 100%;
+    overflow: hidden;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi:hover {
+    overflow: scroll;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    margin-top: -0px;
+    font-size: 3vh;
+  }
+  .diference .diference2 .deskripsi .paragraf {
+    margin-top: -2vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 1.4vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -27.65vh;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    display: none;
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 1.5vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 1.4vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 4vh;
+  }
+  .contack .contack2 card {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 3vh;
+  }
+  .testimoni .judul {
+    margin-bottom: 50px;
+  }
+  .testimoni .judul h1 {
+    color: #00337F;
+    text-align: center;
+    font-size: 3vh;
+  }
+  .testimoni card {
+    border: 1px solid #EAEAEA;
+    width: auto;
+    margin: 10px;
+    height: 100px;
+  }
+  .testimoni card:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#00337F), to(#0061F2));
+    background-image: linear-gradient(90deg, #00337F, #0061F2);
+  }
+  .testimoni card figure {
+    margin: -1px;
+  }
+  .testimoni card figure img {
+    width: 100px;
+  }
+  .testimoni card .deskription {
+    margin-top: 5px;
+  }
+  .testimoni card .deskription h1 {
+    font-size: 2vh;
+  }
+  .testimoni card .deskription p {
+    font-size: 1.5vh;
+    height: 54px;
+    overflow: hidden;
+    margin-top: -5px;
+  }
+  .testimoni card .deskription p:hover {
+    overflow-y: scroll;
+    height: 54px;
+  }
+  .testimoni card .deskription .image-star-review {
+    font-size: 10px;
+    margin-left: -1px;
+    margin-top: -15px;
+  }
+  footer .footerIsRed {
+    margin-left: -2vh;
+  }
+  footer .footerCopyright {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+  }
+  footer .footerCopyright .txt {
+    padding-right: 40px;
+    font-size: 1.5vh;
+    width: 55%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: auto 0;
+    color: #ffffff;
+  }
+  footer .footerCopyright .sosial-media img {
+    margin-top: -5px;
+    margin-right: 15px;
+    width: 15px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 520px) and (max-width: 1050px) {
+  .header {
+    height: 120vh;
+    background-image: url("../image/Group 10821.png");
+    background-size: 28vh;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+  }
+  .header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 30px;
+    margin-left: -1vh;
+  }
+  .header nav figure img {
+    width: 12vh;
+    margin-top: 20px;
+  }
+  .header nav .slide {
+    right: 0%;
+    opacity: 1;
+    right: 0;
+  }
+  .header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-left: 80vh;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    right: -50%;
+    width: 53%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: rgba(23, 74, 212, 0.7);
+    padding: 20px 0;
+    opacity: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header nav ul li a {
+    color: #ffffff;
+    font-size: 2vh;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 20%;
+    margin-left: 2vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .header .deskripsi p {
+    width: 40%;
+    font-size: 1.6vh;
+    margin: 0 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -1vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 5vh;
+    font-size: 1vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 3.5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1.1vh;
+    left: -0.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.8vh;
+    top: 2.4vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 3.3vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 0.8vh;
+    left: 1.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.3vh;
+    top: 2.3vh;
+    color: #dddddd;
+  }
+  .header .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .appPro {
+    margin-top: -65vh;
+  }
+  .appPro .appro2 .deskripsi {
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 1.4vh;
+    margin-top: -1vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 2vh;
+    margin-top: -1vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 5vh;
+    font-size: 1vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 3vh;
+    top: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.8vh;
+    left: 0.2vh;
+    font-size: 1vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1vh;
+    top: 3vh;
+    left: 1.5vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 3vh;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.8vh;
+    left: 1.4vh;
+    font-size: 1vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1vh;
+    top: 3vh;
+    left: 0.1vh;
+    color: #dddddd;
+  }
+  .benefit {
+    background-color: #EFEFEF;
+    height: 30vh;
+    width: 100%;
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    margin-top: 2vh;
+    height: 100%;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 1.5vh;
+    margin-top: -1vh;
+  }
+  .benefit .benefit2 .pict-product {
+    margin-top: 7vh;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -10vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+    width: 100%;
+    overflow: hidden;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi:hover {
+    overflow: scroll;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    margin-top: -0px;
+    font-size: 3vh;
+  }
+  .diference .diference2 .deskripsi .paragraf {
+    margin-top: -2vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 1.4vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -27.65vh;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.7fr;
+        grid-template-columns: 0.7fr 0.7fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 1.5vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 1.4vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 4vh;
+  }
+  .contack .contack2 card {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 3vh;
+  }
+  footer .footerIsRed {
+    margin-left: 3.5vh;
+  }
+  footer .footerCopyright {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+  }
+  footer .footerCopyright .txt {
+    padding-right: 40px;
+    font-size: 1.5vh;
+    width: 70%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: auto 0;
+    color: #ffffff;
+  }
+  footer .footerCopyright .sosial-media img {
+    margin-top: -5px;
+    margin-right: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 500px) {
+  .header {
+    background-size: 66vh;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 45%;
+    margin-left: 10vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 5vh;
+  }
+  .header .deskripsi p {
+    width: 35%;
+    font-size: 2.5vh;
+    margin: 0 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 10vh;
+    padding: 2px;
+    height: 7vh;
+    font-size: 1.6vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: -0.8vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: 1.5vh;
+    top: 3.8vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: 1.7vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: -0.2vh;
+    top: 3.6vh;
+    color: #ffffff;
+  }
+  .header .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .appPro {
+    margin-top: 10vh;
+  }
+  .appPro .appro2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 1fr;
+        grid-template-columns: 0.7fr 1fr;
+        grid-template-areas: 'figure deskripsi';
+  }
+  .appPro .appro2 figure img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: figure;
+  }
+  .appPro .appro2 .deskripsi {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 5vh;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 2vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 20vh;
+    height: 10vh;
+    font-size: 2.5vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 7vh;
+    top: 2.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -0.5vh;
+    left: -1.4vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: 3vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 6vh;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -1vh;
+    left: 3vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: 2.5vh;
+    color: #dddddd;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: 0px;
+    height: 160px;
+    overflow: hidden;
+  }
+  .diference .diference2 .deskripsi:hover {
+    height: 160px;
+    overflow-y: scroll;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    font-size: 7vh;
+  }
+  .diference .diference2 .deskripsi .paragraf {
+    margin-top: -4vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 3vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .testimoni .judul {
+    margin-bottom: 50px;
+  }
+  .testimoni .judul h1 {
+    color: #00337F;
+    text-align: center;
+    font-size: 3vh;
+  }
+  .testimoni card {
+    border: 1px solid #EAEAEA;
+    width: auto;
+    margin: 10px;
+    height: 100px;
+  }
+  .testimoni card:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#00337F), to(#0061F2));
+    background-image: linear-gradient(90deg, #00337F, #0061F2);
+  }
+  .testimoni card figure {
+    margin: -1px;
+  }
+  .testimoni card figure img {
+    width: 100px;
+  }
+  .testimoni card .deskription {
+    margin-top: 5px;
+  }
+  .testimoni card .deskription h1 {
+    font-size: 3vh;
+    font-weight: bold;
+  }
+  .testimoni card .deskription p {
+    font-size: 3vh;
+    height: 57px;
+    overflow: hidden;
+    margin-top: -5px;
+  }
+  .testimoni card .deskription p:hover {
+    overflow-y: scroll;
+    height: 57px;
+  }
+  .testimoni card .deskription .image-star-review {
+    font-size: 10px;
+    margin-left: -1px;
+    margin-top: -15px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -43px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.9fr;
+        grid-template-columns: 0.7fr 0.9fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 3vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 3vh;
+    margin: 10px 0px 0px -10px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 7vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 3vh;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 500px) and (max-width: 820px) {
+  .header {
+    height: 120vh;
+    background-image: url("../image/Group 10821.png");
+    background-size: 65vh;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+  }
+  .header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: nav;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10vh 0;
+    margin-left: -50vh;
+  }
+  .header nav figure img {
+    width: 15vh;
+    margin-top: 10px;
+  }
+  .header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30%;
+    list-style: none;
+    margin-left: -55vh;
+  }
+  .header nav ul li a {
+    color: #00337F;
+    font-size: 2vh;
+  }
+  .header nav ul li a:hover {
+    text-decoration: none;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 45%;
+    margin-left: 5vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .header .deskripsi p {
+    width: 35%;
+    font-size: 2vh;
+    margin: 0 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 10vh;
+    padding: 10px;
+    height: 7vh;
+    font-size: 1.6vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: -0.8vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: 1.5vh;
+    top: 3.8vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: 1.7vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: -0.2vh;
+    top: 3.6vh;
+    color: #ffffff;
+  }
+  .header .menu-toggle {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    height: 20px;
+  }
+  .header .menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(2) {
+    -webkit-transform: rotate(45deg) translate(-1px, -1px);
+            transform: rotate(45deg) translate(-1px, -1px);
+    background-color: #ffffff;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(4) {
+    -webkit-transform: rotate(-45deg) translate(-1px, 0);
+            transform: rotate(-45deg) translate(-1px, 0);
+    background-color: #ffffff;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .header .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .header .menu-toggle span:nth-child(2) {
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+  }
+  .header .menu-toggle span:nth-child(4) {
+    -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+  }
+  .appPro {
+    margin-top: -20vh;
+  }
+  .appPro .appro2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 1fr;
+        grid-template-columns: 0.7fr 1fr;
+        grid-template-areas: 'figure deskripsi';
+  }
+  .appPro .appro2 figure img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: figure;
+  }
+  .appPro .appro2 .deskripsi {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 2vh;
+    margin-top: 6vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 2vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 20vh;
+    height: 10vh;
+    font-size: 2.5vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 7vh;
+    top: 2.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -4.5vh;
+    left: -1.4vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: -1vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 6vh;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -4.6vh;
+    left: 3vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: -1vh;
+    color: #dddddd;
+  }
+  .benefit {
+    background-color: #EFEFEF;
+    height: 50vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: skew(0deg, -4deg);
+            transform: skew(0deg, -4deg);
+  }
+  .benefit .benefit2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0.5fr;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-areas: 'deskripsi figure';
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 2vh;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    font-size: 3vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 2vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -109px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.7fr;
+        grid-template-columns: 0.7fr 0.7fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 2vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 2vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 6vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 3vh;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 1050px) {
+  .header {
+    height: 120vh;
+    background-image: url("../image/Group 10821.png");
+    background-size: 65vh;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+  }
+  .header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: nav;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10vh 0;
+    margin-left: -50vh;
+  }
+  .header nav figure img {
+    width: 15vh;
+    margin-top: 10px;
+  }
+  .header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30%;
+    list-style: none;
+    margin-left: -55vh;
+  }
+  .header nav ul li a {
+    color: #00337F;
+    font-size: 2vh;
+  }
+  .header nav ul li a:hover {
+    text-decoration: none;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 45%;
+    margin-left: 5vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .header .deskripsi p {
+    width: 35%;
+    font-size: 2vh;
+    margin: 0 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 10vh;
+    padding: 10px;
+    height: 7vh;
+    font-size: 1.6vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 1.5vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: -0.8vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: 1.5vh;
+    top: 3.8vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 20vh;
+    height: 7vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1vh;
+    left: 1.7vh;
+    font-size: 1.6vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1.6vh;
+    left: -0.2vh;
+    top: 3.6vh;
+    color: #ffffff;
+  }
+  .header .menu-toggle {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    height: 20px;
+  }
+  .header .menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(2) {
+    -webkit-transform: rotate(45deg) translate(-1px, -1px);
+            transform: rotate(45deg) translate(-1px, -1px);
+    background-color: #ffffff;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(4) {
+    -webkit-transform: rotate(-45deg) translate(-1px, 0);
+            transform: rotate(-45deg) translate(-1px, 0);
+    background-color: #ffffff;
+  }
+  .header .menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .header .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .header .menu-toggle span:nth-child(2) {
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+  }
+  .header .menu-toggle span:nth-child(4) {
+    -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+  }
+  .appPro {
+    margin-top: -20vh;
+  }
+  .appPro .appro2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 1fr;
+        grid-template-columns: 0.7fr 1fr;
+        grid-template-areas: 'figure deskripsi';
+  }
+  .appPro .appro2 figure img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: figure;
+  }
+  .appPro .appro2 .deskripsi {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 2vh;
+    margin-top: 6vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 2vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 20vh;
+    height: 10vh;
+    font-size: 2.5vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 7vh;
+    top: 2.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -4.5vh;
+    left: -1.4vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: -1vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 6vh;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: -4.6vh;
+    left: 3vh;
+    font-size: 2vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 2vh;
+    left: 1vh;
+    top: -1vh;
+    color: #dddddd;
+  }
+  .benefit {
+    background-color: #EFEFEF;
+    height: 50vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: skew(0deg, -4deg);
+            transform: skew(0deg, -4deg);
+  }
+  .benefit .benefit2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0.5fr;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-areas: 'deskripsi figure';
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 2vh;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    font-size: 3vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 2vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -109px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.7fr;
+        grid-template-columns: 0.7fr 0.7fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 2vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 2vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 6vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 3vh;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 4vh;
+  }
+}
+/*# sourceMappingURL=dsdsds.css.map */

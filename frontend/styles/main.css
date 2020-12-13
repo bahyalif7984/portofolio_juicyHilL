@@ -2479,6 +2479,64 @@ footer .footerCopyright .sosial-media img {
     margin: 10px;
     padding: 15px;
   }
+  .carousel ol li {
+    width: 15px;
+    height: 15px;
+  }
+  .carousel .image-slide .captionn {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 50%;
+    margin-top: -10px;
+    background: #121212;
+  }
+  .carousel .image-slide .captionn .deskripsion h6 {
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .carousel .image-slide .captionn .deskripsion p {
+    width: 95%;
+    color: #ffffff;
+    font-size: 0.7em;
+    line-height: 2;
+    margin-bottom: -5px;
+    text-align: left;
+  }
+  .carousel .image-slide .captionn .deskripsion button {
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding: 1px;
+    font-size: 6px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFBF3C), to(#986907));
+    background: linear-gradient(#FFBF3C 0%, #986907 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion button:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#FFBF3C), to(#986907));
+    background: linear-gradient(to right, #FFBF3C 0%, #986907 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .satu {
+    background: -webkit-gradient(linear, left top, left bottom, from(#C22738), to(#4A0C13));
+    background: linear-gradient(#C22738 0%, #4A0C13 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .satu:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#C22738), to(#4A0C13));
+    background: linear-gradient(to right, #C22738 0%, #4A0C13 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .dua {
+    background: -webkit-gradient(linear, left top, left bottom, from(#1B74C1), to(#072640));
+    background: linear-gradient(#1B74C1 0%, #072640 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .dua:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#1B74C1), to(#072640));
+    background: linear-gradient(to right, #1B74C1 0%, #072640 100%);
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1088px) {
@@ -3265,7 +3323,7 @@ footer .footerCopyright .sosial-media img {
   }
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 600px) {
   .navbar .textjuicyhhill {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3533,6 +3591,66 @@ footer .footerCopyright .sosial-media img {
     transition: all linear .4s;
     width: 120px;
     height: 70px;
+  }
+  .carousel ol li {
+    width: 15px;
+    height: 15px;
+  }
+  .carousel .image-slide .captionn {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 50%;
+    margin-top: -10px;
+    background: #121212;
+  }
+  .carousel .image-slide .captionn .deskripsion {
+    margin-left: -30px;
+  }
+  .carousel .image-slide .captionn .deskripsion h6 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .carousel .image-slide .captionn .deskripsion p {
+    width: 95%;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    text-align: left;
+  }
+  .carousel .image-slide .captionn .deskripsion button {
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFBF3C), to(#986907));
+    background: linear-gradient(#FFBF3C 0%, #986907 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion button:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#FFBF3C), to(#986907));
+    background: linear-gradient(to right, #FFBF3C 0%, #986907 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .satu {
+    background: -webkit-gradient(linear, left top, left bottom, from(#C22738), to(#4A0C13));
+    background: linear-gradient(#C22738 0%, #4A0C13 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .satu:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#C22738), to(#4A0C13));
+    background: linear-gradient(to right, #C22738 0%, #4A0C13 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .dua {
+    background: -webkit-gradient(linear, left top, left bottom, from(#1B74C1), to(#072640));
+    background: linear-gradient(#1B74C1 0%, #072640 100%);
+  }
+  .carousel .image-slide .captionn .deskripsion .dua:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#1B74C1), to(#072640));
+    background: linear-gradient(to right, #1B74C1 0%, #072640 100%);
   }
 }
 
