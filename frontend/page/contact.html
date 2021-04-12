@@ -48,7 +48,7 @@
             <div class="row">
                 <div class=" col-lg-6 col-md-6 col-sm-6">
                     <figure class="figure">
-                        <img src="../images/Mask Group 45.png" class="figure-img img-fluid " alt="" loading="lazy">
+                        <img data-src="../images/Mask Group 45.png" class="figure-img img-fluid photo" alt="" loading="lazy">
                          <figcaption class="figure-caption text-xs-right"></figcaption>
                        </figure>
                 </div>
@@ -189,10 +189,10 @@
           <div class="row justify-content-center footerCopyright">
             <p class="txt">© Copyright2020 JUICY HILL, develop by bahyAlif</p>
             <div class="row sosial-media">
-        <a href="">      <img src="../images/LinkedIN_black.png" alt="linkedin" loading="lazy"></a>
-              <a href=""><img src="../images/Facebook_black.png" alt="facebook" loading="lazy"></a>
-           <a href="">   <img src="../images/Twitter_black.png" alt="facebook" loading="lazy"></a>
-          <a href="">    <img src="../images/Google.png" alt="facebook" loading="lazy"></a>
+        <a href="">      <img data-src="../images/LinkedIN_black.png" alt="linkedin" class="photo"></a>
+              <a href=""><img data-src="../images/Facebook_black.png" alt="facebook" class="photo"></a>
+           <a href="">   <img data-src="../images/Twitter_black.png" alt="facebook" class="photo"></a>
+          <a href="">    <img data-src="../images/Google.png" alt="facebook" class="photo"></a>
             </div>
           </div>
         </div>
@@ -202,5 +202,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+    <script>
+        const lazy=new LazyLoad({
+          elements_selector:".photo"
+        });
+    </script>
   </body>
 </html>
