@@ -198,7 +198,8 @@ html {
 }
 
 .section-gold-juicy-hill {
-  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #fdfcf7;
 }
 
 .section-gold-juicy-hill .gold-juicy-hill {
