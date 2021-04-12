@@ -53,6 +53,7 @@ html {
 }
 
 .carousel .image-slide .gambar img {
+  height: auto;
   width: 50vw;
 }
 
@@ -125,6 +126,7 @@ html {
 }
 
 .section-juicy-hill figure img {
+  height: auto;
   width: 50vw;
 }
 
