@@ -628,25 +628,27 @@ footer{
 
 .section-content-about-deskripsi{
     background-color: #121212;
- 
+    transition: all 1s;
     flex: wrap;
     border-bottom: 3px solid #97141A;
     .figure{
         margin-bottom: -6px;
+        transition: all 1s;
     
         margin-left: -20px;
         img{
             width: 90vh;
             height: 100vh;
+            transition: all 1s;
            
         }
     }
      .caption{
       
         .deskripsi{
-           
+            transition: all 1s;
             P{
-            
+                transition: all 1s;
                 font-size: 18px;
                 width: 80%;
                 color: #ffffff;
