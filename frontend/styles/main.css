@@ -9,6 +9,10 @@ html {
   outline: none !important;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 @font-face {
   font-family: 'crimson';
   src: url("frontend/font/Crimson_Text/CrimsonText-SemiBold.ttf");
