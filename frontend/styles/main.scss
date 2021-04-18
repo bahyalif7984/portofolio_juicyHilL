@@ -2,7 +2,7 @@ html{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
- 
+    
     font-size: 12px;
 }
 *:focus{
@@ -11,6 +11,9 @@ html{
 body{
     background-color: #ffffff;
 }
+@-ms-viewport{
+    width: device-width;
+  }
 @font-face{
     font-family: 'crimson';
     src: url('frontend/font/Crimson_Text/CrimsonText-SemiBold.ttf');
@@ -211,6 +214,7 @@ body{
             width: 30%;
             img{
                 width: 100%;
+                height: auto;
             }
         }
         }
@@ -993,6 +997,140 @@ footer{
     }
  }
  }
+}
+
+// page detail produk
+.all-detail-produk{
+   
+   height: 100vh;
+    .breadcrumb{
+        margin-top: 10px;
+        background: none;
+        ol{
+            list-style: none;
+            display: flex;
+            li{
+                color: #97141A;
+                font-size: 1.3rem;
+            }
+        }
+    
+    }
+    
+    .detailProduk{
+      
+        figure{
+            border: 1px solid #000;
+            width: 100%;
+           
+            img{      
+              width: 50%;
+              
+    
+              display: flex;
+              margin: 0 auto;
+            }
+        }
+        .text-detail-produk{
+            height: 100%;
+            display: flex;
+            
+        
+          .harga{
+              display: flex;
+              justify-content: space-between;
+          
+                h6{
+                    color: #97141A;
+                }
+                i{
+                    display: flex;
+                    h1{
+                        margin-top: -1px;
+                        font-size: 1rem;
+                        color: black;
+                        font-weight: bold;
+                        margin-left: 3px;
+                    }
+                }
+          }  
+          
+          p{
+              margin: 20px 0;
+              font-size: 1.5rem;
+          }
+          .add-to-card{
+              display: flex;
+              padding-bottom: 45%;
+    
+              .jumlah{
+                  width: 25%;
+                  display: flex;
+                  justify-content: space-between;
+                  border: 1px solid #000000;
+              button{
+                  width: 30%;
+                  background: none;
+                  border: none;
+                  font-size: 2rem;
+                  cursor: pointer;
+                  &:hover{
+                      background: #f1eeee;
+                  }
+              }
+                }
+                .btn{
+                    button{
+                        cursor: pointer;
+                        margin-top: -5px;
+                        height: 120%;
+                        background-color: #97141A;
+                        color: #ffffff;
+                        border: none;
+                        width: 130%;
+                        font-size: 1.2rem;
+                        &:hover{
+                            background-color: #6d0d12;
+                        }
+                    }
+                }
+          }
+          .logo-share{
+              display: flex;
+              justify-content: space-between;
+              .logo-shares{
+                  margin: 10px ;
+                  i{
+                      margin-left: 10px;
+                      font-size: 1.5rem;
+                  }
+              }
+          }
+        }
+    }
+    
+    .list-produk{
+      margin-bottom: 50px;
+        // min-height: 100%;
+        .card{
+            margin: 10px;
+            img{
+                width: 70%;
+                margin: 0 auto;
+            }
+            button{
+                background: #D4BB71;
+                border: none;
+                color: #ffffff;
+             
+                margin: 10px 0 0 0;
+                font-size: 1.9rem;
+                margin-top: 10%;
+                height: auto;
+            }
+        }
+    }
+    
 }
 
 @media only screen and(max-width: 777px){

@@ -13,6 +13,10 @@ body {
   background-color: #ffffff;
 }
 
+@-ms-viewport {
+  width: device-width;
+}
+
 @font-face {
   font-family: 'crimson';
   src: url("frontend/font/Crimson_Text/CrimsonText-SemiBold.ttf");
@@ -216,6 +220,7 @@ body {
 
 .section-gold-juicy-hill .gold-juicy-hill figure img {
   width: 100%;
+  height: auto;
 }
 
 .section-gold-juicy-hill .caption {
@@ -1071,6 +1076,165 @@ footer .footerCopyright .sosial-media img {
   position: absolute;
   top: 93.5%;
   left: 13%;
+}
+
+.all-detail-produk {
+  height: 100vh;
+}
+
+.all-detail-produk .breadcrumb {
+  margin-top: 10px;
+  background: none;
+}
+
+.all-detail-produk .breadcrumb ol {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all-detail-produk .breadcrumb ol li {
+  color: #97141A;
+  font-size: 1.3rem;
+}
+
+.all-detail-produk .detailProduk figure {
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.all-detail-produk .detailProduk figure img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .harga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .harga h6 {
+  color: #97141A;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .harga i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .harga i h1 {
+  margin-top: -1px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk p {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 45%;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card .jumlah {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #000000;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card .jumlah button {
+  width: 30%;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card .jumlah button:hover {
+  background: #f1eeee;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card .btn button {
+  cursor: pointer;
+  margin-top: -5px;
+  height: 120%;
+  background-color: #97141A;
+  color: #ffffff;
+  border: none;
+  width: 130%;
+  font-size: 1.2rem;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .add-to-card .btn button:hover {
+  background-color: #6d0d12;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .logo-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .logo-share .logo-shares {
+  margin: 10px;
+}
+
+.all-detail-produk .detailProduk .text-detail-produk .logo-share .logo-shares i {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.all-detail-produk .list-produk {
+  margin-bottom: 50px;
+}
+
+.all-detail-produk .list-produk .card {
+  margin: 10px;
+}
+
+.all-detail-produk .list-produk .card img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.all-detail-produk .list-produk .card button {
+  background: #D4BB71;
+  border: none;
+  color: #ffffff;
+  margin: 10px 0 0 0;
+  font-size: 1.9rem;
+  margin-top: 10%;
+  height: auto;
 }
 
 @media only screen and (max-width: 777px) {
